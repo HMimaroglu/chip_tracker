@@ -1,0 +1,35 @@
+# Core dependencies
+PyQt5>=5.15.0
+opencv-python>=4.8.0
+numpy>=1.21.0
+pydantic>=2.0.0
+PyYAML>=6.0
+
+# Async support
+qasync>=0.24.0
+httpx>=0.24.0
+asyncio-throttle>=1.0.0
+
+# Web server
+fastapi>=0.100.0
+uvicorn>=0.22.0
+
+# VLM providers (optional - install as needed)
+# Ollama (no additional deps - uses HTTP API)
+
+# Anthropic
+anthropic>=0.25.0
+
+# OpenAI 
+openai>=1.12.0
+
+# Google
+google-generativeai>=0.4.0
+
+# Image processing
+Pillow>=9.0.0
+
+# Development/testing (optional)
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0

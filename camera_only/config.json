@@ -1,0 +1,65 @@
+{
+  "players": 4,
+  "chips": [
+    {
+      "name": "Red",
+      "hsv_low": [
+        0,
+        120,
+        80
+      ],
+      "hsv_high": [
+        10,
+        255,
+        255
+      ],
+      "value": 5.0,
+      "thickness_mm": 3.3
+    },
+    {
+      "name": "Blue",
+      "hsv_low": [
+        100,
+        120,
+        60
+      ],
+      "hsv_high": [
+        130,
+        255,
+        255
+      ],
+      "value": 10.0,
+      "thickness_mm": 3.3
+    },
+    {
+      "name": "Green",
+      "hsv_low": [
+        40,
+        120,
+        60
+      ],
+      "hsv_high": [
+        80,
+        255,
+        255
+      ],
+      "value": 25.0,
+      "thickness_mm": 3.3
+    },
+    {
+      "name": "Black",
+      "hsv_low": [
+        0,
+        0,
+        0
+      ],
+      "hsv_high": [
+        180,
+        255,
+        50
+      ],
+      "value": 100.0,
+      "thickness_mm": 3.3
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+cadence_seconds: 8.0
+camera_index: 0
+colors:
+- description: Standard red poker chip
+  name: Red
+  value: 5.0
+- description: Standard blue poker chip
+  name: Blue
+  value: 10.0
+- description: Standard green poker chip
+  name: Green
+  value: 25.0
+- description: Standard black poker chip
+  name: Black
+  value: 100.0
+model_name: llava
+players: 4
+provider: opencv
+rois: []
