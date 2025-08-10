@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['10', '100', '500']
+
+roboflow:
+  workspace: hunter-wwm4l
+  project: poker-chips-detector-q4cjo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hunter-wwm4l/poker-chips-detector-q4cjo/dataset/1

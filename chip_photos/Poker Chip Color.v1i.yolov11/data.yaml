@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['chip-black', 'chip-blue', 'chip-green', 'chip-red', 'chip-white', 'chip-yellow']
+
+roboflow:
+  workspace: hunter-wwm4l
+  project: poker-chip-color-cxsrs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hunter-wwm4l/poker-chip-color-cxsrs/dataset/1
