@@ -3,12 +3,12 @@ import torch
 from ultralytics import YOLO
 
 # 1. Define the path to the dataset's data.yaml file
-data_yaml_path = os.path.expanduser("~/chip_photos/Poker Chip Color.v1i.yolov11/data.yaml")
+data_yaml_path = "/home/hunter/chip_tracker/chip_photos/Poker Chip Color.v1i.yolov11/data.yaml"
 
 # 2. Load a pre-trained YOLOv11 model
 # Using a small, fast model for demonstration.
 # You can choose other models like yolov11s, yolov11m, etc.
-model = YOLO("yolov11n.pt")
+model = YOLO("yolo11n.pt")
 
 # 3. Train the model
 results = model.train(
